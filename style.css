@@ -25,7 +25,7 @@
   .header {
     text-align: center;
   }
-
+  
 }
 
 .main {
@@ -85,7 +85,8 @@ button {
   text-transform: uppercase;
 }
 
-.tasks__input {
+.tasks__input,
+.form__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -102,6 +103,10 @@ button {
   color: #333;
 }
 
+.form__input:focus {
+  color: #333;
+}
+
 /* New Task */
 .add-task__new-task {
   display: block;
@@ -110,10 +115,6 @@ button {
 
 .form__input {
   width: 318px;
-}
-
-.form__button:hover {
-  color: #0fc57c;
 }
 
 /* Task list */
@@ -134,7 +135,7 @@ button {
   margin: 0 10px;
 }
 
-.tasks__input {
+.tasks__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -143,10 +144,6 @@ button {
 
 .tasks__input {
   width: 226px;
-}
-
-.button__delete:hover {
-  color: #cf2323;
 }
 
 .delete-img {
