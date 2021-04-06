@@ -155,7 +155,7 @@ button {
 }
 
 /* Completed */
-.label_decoration_through {
+.completed-tasks .tasks__label {
   text-decoration: line-through;
   color: #888;
 }
