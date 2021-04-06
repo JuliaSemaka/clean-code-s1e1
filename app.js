@@ -77,6 +77,7 @@ var editTask = function () {
   console.log("Change 'edit' to 'save'");
 
   var listItem = this.parentNode;
+  console.log(listItem);
 
   var editInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");

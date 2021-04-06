@@ -21,11 +21,9 @@
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-  
 }
 
 .main {
@@ -167,11 +165,11 @@ button {
   display: none;
 }
 
-.incomplete-tasks:last-child .tasks__input {
+.tasks__item_edit .tasks__input {
   display: inline-block;
   width: 224px;
 }
 
-.incomplete-tasks:last-child .tasks__label {
+.tasks__item_edit .tasks__label {
   display: none;
 }
