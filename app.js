@@ -79,7 +79,7 @@ var editTask = function () {
   var listItem = this.parentNode;
   console.log(listItem);
 
-  var editInput = listItem.querySelector("input[type=text]");
+  var editInput = listItem.querySelector(".tasks__input");
   var label = listItem.querySelector("label");
   var editBtn = listItem.querySelector(".button__edit");
   var containsClass = listItem.classList.contains("tasks__item_edit");
@@ -142,7 +142,7 @@ addButton.addEventListener("click", ajaxRequest);
 var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   console.log("bind list item events");
   //select ListItems children
-  var checkBox = taskListItem.querySelector("input[type=checkbox]");
+  var checkBox = taskListItem.querySelector(".tasks__checkbox");
   var editButton = taskListItem.querySelector(".button__edit");
   var deleteButton = taskListItem.querySelector(".button__delete");
 
